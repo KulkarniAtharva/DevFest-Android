@@ -12,13 +12,15 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
-
+public class MainActivity extends AppCompatActivity
+{
     RelativeLayout card;
     TextView titletv, desctv;
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -26,10 +28,12 @@ public class MainActivity extends AppCompatActivity {
         titletv = findViewById(R.id.titletv);
         desctv = findViewById(R.id.desctv);
 
-        card.setOnClickListener(new View.OnClickListener() {
+        card.setOnClickListener(new View.OnClickListener()
+        {
             @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
             @Override
-            public void onClick(View v) {
+            public void onClick(View v)
+            {
                 Intent intent = new Intent(MainActivity.this,moreinfo.class);
                 Pair[] pairs = new Pair[3];
                 pairs[0] = new Pair<View, String>(card, "card");
@@ -42,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+        //getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+        getWindow().setStatusBarColor(getResources().getColor(R.color.white,getTheme()));
     }
 }

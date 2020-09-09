@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Energy Life</string>
+    <string name="app_name">DevFest</string>
     <string name="concerts_theater"><![CDATA[Concerts & Theater]]></string>
     <string name="ev_wth_friends">Events with friends</string>
     <string name="friends_go">Friends go</string>
