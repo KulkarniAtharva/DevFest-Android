@@ -19,8 +19,8 @@ A UI made for DevFest Android Developers event
     <th>Screenshot 2</th> 
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/47221267/99056224-056e5f00-25c0-11eb-8987-f55eba1cc67d.jpg" width="400px"></td>
-    <td><img src="https://user-images.githubusercontent.com/47221267/99056641-9d6c4880-25c0-11eb-91ad-06829560e3c0.jpg" width="400px"></td> 
+    <td><img src="https://user-images.githubusercontent.com/47221267/99056224-056e5f00-25c0-11eb-8987-f55eba1cc67d.jpg" width="350px"></td>
+    <td><img src="https://user-images.githubusercontent.com/47221267/99056641-9d6c4880-25c0-11eb-91ad-06829560e3c0.jpg" width="350px"></td> 
   </tr>      
  
 </table>
